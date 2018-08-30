@@ -11,11 +11,11 @@ IP池问题：抓取到的IP可用比例很低，造成爬取效率低，可以�
 <a title="保亭酒店" href="/hotel/baoting54">保亭</a><br>
 在后续爬取中需要"baoting54"，将城市的拼音和key作为表单参数提交
 
-携程在具体的页面里使用Ajax传输除页面头尾的内容，通过JS渲染在浏览器端拼接网页，通过抓包可以发现
-信息存储在hotelPositionJSON中，
-返回这个HTML的URL:http://hotels.ctrip.com/Domestic/Tool/AjaxHotelList.aspx
-完整的请求参数可参见urlCreate/PostJson.java
-实际测试发现，实际只需要提交其中四个参数"cityName","cityId","cityPY","page"
+携程在具体的页面里使用Ajax传输除页面头尾的内容，通过JS渲染在浏览器端拼接网页，通过抓包可以发现<br>
+信息存储在hotelPositionJSON中，<br>
+返回这个HTML的URL:http://hotels.ctrip.com/Domestic/Tool/AjaxHotelList.aspx<br>
+完整的请求参数可参见urlCreate/PostJson.java<br>
+实际测试发现，实际只需要提交其中四个参数"cityName","cityId","cityPY","page"<br>
 
 获得json串后，其中包含当前页所有酒店的基本信息和详情页url，使用正则将需要的信息提取即可
 
