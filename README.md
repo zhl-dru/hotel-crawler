@@ -6,9 +6,9 @@ IP池问题：抓取到的IP可用比例很低，造成爬取效率低，可以�
 环境：java8
 使用的开源工具可见maven配置文件
 
-携程全国城市酒店入口：http://hotels.ctrip.com/domestic-city-hotel.html
-城市信息数据样例：
-<a title="保亭酒店" href="/hotel/baoting54">保亭</a>
+携程全国城市酒店入口：http://hotels.ctrip.com/domestic-city-hotel.html<br>
+城市信息数据样例：<br>
+<a title="保亭酒店" href="/hotel/baoting54">保亭</a><br>
 在后续爬取中需要"baoting54"，将城市的拼音和key作为表单参数提交
 
 携程在具体的页面里使用Ajax传输除页面头尾的内容，通过JS渲染在浏览器端拼接网页，通过抓包可以发现
