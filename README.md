@@ -12,7 +12,7 @@ IP池问题：抓取到的IP可用比例很低，造成爬取效率低，可以�
 在后续爬取中需要"baoting54"，将城市的拼音和key作为表单参数提交
 
 携程在具体的页面里使用Ajax传输除页面头尾的内容，通过JS渲染在浏览器端拼接网页，通过抓包可以发现<br>
-![](https://github.com/zhl-dru/hotel-crawler/edit/master/picture/a1.jpg) 
+![](https://github.com/zhl-dru/hotel-crawler/tree/master/picture/a1.jpg) 
 信息存储在hotelPositionJSON中，<br>
 返回这个HTML的URL:http://hotels.ctrip.com/Domestic/Tool/AjaxHotelList.aspx<br>
 完整的请求参数可参见urlCreate/PostJson.java<br>
